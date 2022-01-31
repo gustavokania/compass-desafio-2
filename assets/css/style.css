@@ -1,0 +1,196 @@
+body {
+    font-family: 'Bangers', cursive;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.divisao-master{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    text-align:center;
+    padding: 15px;
+    border: 4px outset rgb(34, 7, 53);
+    background: linear-gradient(to bottom, rgb(112, 54, 150) 0%, rgb(64, 24, 90) 100%);
+}
+
+.imagem-titulo {
+    width: 60px;
+    padding: 5px 20px 5px 20px;
+    vertical-align: middle;
+}
+
+.titulo-master{
+    display: inline;
+    color:rgb(34, 7, 53);
+}
+
+.divisao-master1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    text-align:center;
+    padding: 10px;
+    border: 4px outset rgb(98, 81, 248);
+    background: linear-gradient(to bottom, rgb(31, 24, 94) 0%, rgb(9, 5, 43) 100%);
+}
+
+.titulo-master1 {
+    display: inline;
+    color:rgb(98, 81, 248);
+}
+
+.divisao-master2 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    text-align:center;
+    padding: 10px;
+    border: 4px outset rgb(241, 104, 104);
+    background: linear-gradient(to bottom, rgb(116, 27, 27) 0%, rgb(78, 12, 12) 100%);
+}
+
+.titulo-master2 {
+    display: inline;
+    color:rgb(241, 104, 104);
+}
+
+.marcador1{
+    -webkit-appearance: none;
+    background-color: rgb(83, 71, 192);
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 0.5px rgba(0,0,0,0.5), inset 0px -15px 10px -20px rgba(0,0,0,0.05);
+    padding: 8px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.marcador1:hover, .marcador1:checked:hover {
+    box-shadow: 0 0px 2px rgb(255, 255, 255);
+}
+
+.marcador1:checked {
+    background-color: rgb(31, 24, 94);
+    border: 1px solid rgb(98, 89, 177);
+	box-shadow: 1px 1px 1px 0.5px rgba(0,0,0,0.5), inset 0px -15px 10px -20px rgba(0,0,0,0.05);
+	color: #99a1a7;
+}
+
+.marcador1:checked:after {
+    content: '\2714';
+	font-size: 14px;
+	position: absolute;
+    top: -2px;
+    left: 3px;
+	color: rgb(187, 177, 177);
+}
+
+.marcador2{
+    -webkit-appearance: none;
+    background-color: rgb(194, 52, 52);
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 0.5px rgba(0,0,0,0.5), inset 0px -15px 10px -20px rgba(0,0,0,0.05);
+    padding: 8px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.marcador2:hover, .marcador2:checked:hover {
+    box-shadow: 0 0px 2px rgb(255, 255, 255);
+}
+
+.marcador2:checked {
+    background-color: rgb(116, 27, 27);
+    border: 1px solid rgb(187, 78, 78);
+	box-shadow: 1px 1px 1px 0.5px rgba(0,0,0,0.5), inset 0px -15px 10px -20px rgba(0,0,0,0.05);
+	color: #99a1a7;
+}
+
+.marcador2:checked:after {
+    content: '\2714';
+	font-size: 14px;
+	position: absolute;
+    top: -2px;
+    left: 3px;
+	color: rgb(187, 177, 177);
+}
+
+
+.divisao-principal {
+    display: flex;
+}
+
+.divisao-sub1 {
+    flex: 1;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    text-align:left;
+    padding: 10px;
+    border-style: outset;
+    border-color: rgb(36, 21, 173);
+    border-width: 2px 0px 2px 2px;
+    background: linear-gradient(to bottom, rgb(83, 71, 192) 0%, rgb(40, 31, 122) 100%);
+}
+
+.divisao-sub2 {
+    flex: 1;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    padding: 10px;
+    border-style: outset;
+    border-color: rgb(36, 21, 173);
+    border-width: 2px 2px 2px 0px;
+    background: linear-gradient(to bottom, rgb(119, 106, 236) 0%, rgb(65, 53, 177) 100%);
+}
+
+.descricao-linha {
+    display: inline;
+    color:rgb(11, 6, 56);
+}
+
+
+.imagem-portrait {
+    width: 50px;
+    padding: 5px 10px 5px 10px;
+    vertical-align: middle;
+}
+
+.divisao-sub3 {
+    flex: 1;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    text-align:left;
+    padding: 10px;
+    border-style: outset;
+    border-color: rgb(177, 29, 29);
+    border-width: 2px 0px 2px 2px;
+    background: linear-gradient(to bottom, rgb(194, 52, 52) 0%, rgb(116, 27, 27) 100%);
+}
+
+.divisao-sub4 {
+    flex: 1;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    padding: 10px;
+    border-style: outset;
+    border-color: rgb(177, 29, 29);
+    border-width: 2px 2px 2px 0px;
+    background: linear-gradient(to bottom, rgb(231, 78, 78) 0%, rgb(194, 52, 52) 100%);
+}
+
+.descricao-linha1 {
+    display: inline;
+    color:rgb(54, 10, 10);;
+}

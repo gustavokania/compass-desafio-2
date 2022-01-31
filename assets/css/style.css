@@ -1,4 +1,9 @@
-body {
+.imagem-carrossel {
+    object-fit: cover;
+    height: 350px;
+}
+
+.fonte-master {
     font-family: 'Bangers', cursive;
 }
 

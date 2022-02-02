@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title> TITULO </title>
+    <title> Disgaea Checklists </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -13,33 +13,35 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-expand-lg navbar-light divisao-navbar fixed-top">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <img src="img/principais/prinny-twirl.gif" alt="" width="30" height="24">
-              </li>
-              <li class="nav-item fonte-master">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item fonte-master">
-                <a class="nav-link" href="#">Checklist</a>
-              </li>
-              <li class="nav-item fonte-master">
-                <a class="nav-link" href="#">Form</a>
-              </li>
-            </ul>
+          <img class="imagem-navbar" src="img/principais/disgaeaLogo.png">
+        </div>
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Checklist</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Form</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
     </header>
 
     <main>
-      <section id="carrossel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <!-- CARROSSEL -->
+      <section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -66,7 +68,8 @@
         </button>
       </section>
 
-      <section id="titulo">
+      <section>
+        <!-- TÍTULO -->
         <div class="divisao-master">
           <img class="imagem-titulo" src="img/principais/prinny-twirl.gif">
           <h1 class="titulo-master">DISGAEA CLASSES CHECKLIST INDEX</h1>
@@ -74,45 +77,45 @@
         </div>
       </section>
 
-      <section class="container" id="checklists">
-        <div class="row">
-        
-          <article class="card card-geral">
+      <!-- CARDS CHECKLIST -->
+      <section class="container-fluid container-checklists">
+        <div class="row justify-content-center">        
+          <article class="card card-geral p-0 m-5 col-12 col-md-4">
             <img src="img/cards/disgaea1.jpg" class="card-imagem">
             <div class="card-body elemento-center">
               <h3 class="fonte-master card-titulo">DISGAEA - HOUR OF DARKNESS</h3>
               <a class="btn card-botao fonte-master">ACCESS CHECKLIST</a>
             </div>
           </article>
-          <article class="card card-geral">
-            <img src="img/cards/disgaea2.jpg" class="card-imagem" style="object-position: 0 70%;">
+          <article class="card card-geral p-0 m-5 col-12 col-md-4">
+            <img src="img/cards/disgaea2.jpg" class="card-imagem" style="object-position: 0 80%;">
             <div class="card-body elemento-center">
               <h3 class="fonte-master card-titulo">DISGAEA 2 - CURSED MEMORIES</h3>
               <a class="btn card-botao fonte-master">ACCESS CHECKLIST</a>
             </div>
           </article>
-          <article class="card card-geral">
+          <article class="card card-geral p-0 m-5 col-12 col-md-4">
             <img src="img/cards/disgaea3.jpg" class="card-imagem">
             <div class="card-body elemento-center">
               <h3 class="fonte-master card-titulo">DISGAEA 3 - ABSENCE OF JUSTICE</h3>
               <a class="btn card-botao fonte-master">ACCESS CHECKLIST</a>
             </div>
           </article>
-          <article class="card card-geral">
+          <article class="card card-geral p-0 m-5 col-12 col-md-4">
             <img src="img/cards/disgaea4.jpg" class="card-imagem" style="object-position: 0 40%;">
             <div class="card-body elemento-center">
               <h3 class="fonte-master card-titulo">DISGAEA 4 - PROMISE UNFORGOTTEN</h3>
               <a class="btn card-botao fonte-master">ACCESS CHECKLIST</a>
             </div>
           </article>
-          <article class="card card-geral">
+          <article class="card card-geral p-0 m-5 col-12 col-md-4">
             <img src="img/cards/disgaea5.jpg" class="card-imagem">
             <div class="card-body elemento-center">
               <h3 class="fonte-master card-titulo">DISGAEA 5 - ALLIANCE OF VENGEANCE</h3>
               <a class="btn card-botao fonte-master">ACCESS CHECKLIST</a>
             </div>
           </article>
-          <article class="card card-geral">
+          <article class="card card-geral p-0 m-5 col-12 col-md-4">
             <img src="img/cards/disgaea6.png" class="card-imagem" style="object-position: 0 35%;">
             <div class="card-body elemento-center">
               <h3 class="fonte-master card-titulo">DISGAEA 6 - DEFIANCE OF DESTINY</h3>
@@ -121,11 +124,13 @@
           </article>
         </div>
       </section>
-
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
-    <footer>
+    <footer class="background-forte p-2 divisao-footer">
+      <img class="imagem-titulo" src="img/principais/prinny-salute.gif">
+      <p class="m-0 titulo-footer">&copy; DISGAEA. ALL RIGHTS RESERVED - DOOD</p>
+      <img class="imagem-titulo" src="img/principais/prinny-salute.gif">
     </footer>
 </html>

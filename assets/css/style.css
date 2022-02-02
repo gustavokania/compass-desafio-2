@@ -5,10 +5,32 @@
 
 .fonte-master {
     font-family: 'Bangers', cursive;
+    text-decoration: unline;
 }
 
-.botao-card {
+.elemento-center {
+    text-align: center;
+}
+
+.card-geral {
+    width: 400px; 
+    border: 2px outset rgb(34, 7, 53);
+}
+
+.card-imagem {
+    object-fit:cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 200px;
+}
+.card-titulo {
+    color:rgb(112, 54, 150);
+    text-decoration: underline;
+}
+
+.card-botao {
     background: linear-gradient(to bottom, rgb(199, 130, 245) 0%, rgb(112, 54, 150) 100%);
+    color: white;
 }
 
 .banner {
@@ -28,20 +50,21 @@
 }
 
 .imagem-titulo {
-    width: 60px;
-    padding: 5px 20px 5px 20px;
+    width: 80px;
+    padding: 2px 5px 2px 5px;
     vertical-align: middle;
 }
 
 .titulo-master{
     display: inline;
+    vertical-align: middle;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
     color:rgb(34, 7, 53);
 }
 
 .divisao-master1 {
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Bangers', cursive;
     text-align:center;
     padding: 10px;
     border: 4px outset rgb(98, 81, 248);

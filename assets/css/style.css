@@ -9,18 +9,29 @@
 .imagem-navbar {
     max-height: 35px;
     width: auto;
-    margin: 5px;
+    margin-left: 20px;
     vertical-align: middle;
+}
+
+.escrita-navbar {
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav p:hover{
+    text-decoration: underline;
+    color:rgb(209, 118, 255);
 }
 
 .imagem-carrossel {
     object-fit: cover;
     height: 350px;
+    width: 100%;
 }
 
 .fonte-master {
     font-family: 'Bangers', cursive;
-    text-decoration: unline;
 }
 
 .elemento-center {
@@ -49,6 +60,12 @@
 .card-botao {
     background: linear-gradient(to bottom, rgb(199, 130, 245) 0%, rgb(112, 54, 150) 100%);
     color: white;
+}
+
+.not-avaiable {
+    text-decoration: line-through;
+    background: linear-gradient(to bottom, rgb(196, 196, 196) 0%, rgb(70, 70, 70) 100%);
+    color: rgb(0, 0, 0);
 }
 
 .background-forte {

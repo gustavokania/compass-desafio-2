@@ -24,6 +24,10 @@ nav p:hover{
     color:rgb(209, 118, 255);
 }
 
+body {
+    padding-top: 77px;
+}
+
 .imagem-carrossel {
     object-fit: cover;
     height: 350px;
@@ -90,7 +94,7 @@ nav p:hover{
 
 .banner {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
 }
 

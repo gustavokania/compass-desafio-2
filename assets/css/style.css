@@ -95,7 +95,6 @@ nav p:hover{
 }
 
 .divisao-master {
-    font-size: 60px;
     font-weight: bold;
     font-family: 'Bangers', cursive;
     text-align:center;
@@ -120,6 +119,8 @@ nav p:hover{
 }
 
 .divisao-master1 {
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
     text-align:center;
     padding: 10px;
     border: 4px outset rgb(98, 81, 248);
@@ -127,12 +128,13 @@ nav p:hover{
 }
 
 .titulo-master1 {
+    font-size: 50px;
+    vertical-align: middle;
     display: inline;
     color:rgb(98, 81, 248);
 }
 
 .divisao-master2 {
-    font-size: 50px;
     font-weight: bold;
     font-family: 'Bangers', cursive;
     text-align:center;
@@ -142,6 +144,8 @@ nav p:hover{
 }
 
 .titulo-master2 {
+    font-size: 50px;
+    vertical-align: middle;
     display: inline;
     color:rgb(241, 104, 104);
 }
@@ -215,7 +219,6 @@ nav p:hover{
 
 .divisao-sub1 {
     flex: 1;
-    font-size: 30px;
     font-weight: bold;
     font-family: 'Bangers', cursive;
     text-align:left;
@@ -228,7 +231,6 @@ nav p:hover{
 
 .divisao-sub2 {
     flex: 1;
-    font-size: 30px;
     text-align: center;
     font-weight: bold;
     font-family: 'Bangers', cursive;
@@ -240,13 +242,17 @@ nav p:hover{
 }
 
 .descricao-linha {
+    font-size: 30px;
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
     display: inline;
     color:rgb(11, 6, 56);
 }
 
 
 .imagem-portrait {
-    width: 50px;
+    width: 75px;
     padding: 5px 10px 5px 10px;
     vertical-align: middle;
 }
@@ -278,6 +284,10 @@ nav p:hover{
 }
 
 .descricao-linha1 {
+    font-size: 30px;
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
     display: inline;
     color:rgb(54, 10, 10);;
 }

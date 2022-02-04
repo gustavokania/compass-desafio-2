@@ -215,6 +215,9 @@ body {
 	color: rgb(187, 177, 177);
 }
 
+.marcador-ok {
+    text-decoration: line-through;
+}
 
 .divisao-principal {
     display: flex;

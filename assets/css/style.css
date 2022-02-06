@@ -2,7 +2,7 @@
 
 .divisao-navbar {
     text-align: center;
-    border: 4px outset rgb(34, 7, 53);
+    border: 2px outset rgb(34, 7, 53);
     background: linear-gradient(to bottom, rgb(112, 54, 150) 0%, rgb(64, 24, 90) 100%);
 }
 
@@ -24,7 +24,7 @@ nav p:hover{
 }
 
 body {
-    padding-top: 77px;
+    padding-top: 73px;
 }
 
 .imagem-carrossel {

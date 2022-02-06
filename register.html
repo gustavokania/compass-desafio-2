@@ -64,18 +64,22 @@
           </div>
           <div class="register-center register-div">
             <label for="exampleInputEmail1" class="form-label register-subtitulo">EMAIL</label>
-            <input type="email" class="form-control register-input" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" class="form-control register-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@email.com.br" required>
             <div id="emailHelp" class="form-text register-input register-observation">Don't worry, your personal information is safe with us - dood!</div>
           </div>
           <div class="register-center register-div">
             <label for="inputPassword5" class="form-label register-subtitulo">PASSWORD</label>
-            <input type="password" id="inputPassword5" class="form-control register-input" aria-describedby="passwordHelpBlock">
-            <div id="passwordHelpBlock" class="form-text register-input register-observation"> Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+            <input type="password" id="inputPassword5" class="form-control register-input" aria-describedby="passwordHelpBlock"
+              pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[!@#$%^&*_=+-]).{6,10}$" placeholder="********" required
+              title="Looks like something went wrong! Please match the password design dood!"
+            >
+            <div id="passwordHelpBlock" class="form-text register-input register-observation"> 
+              Your password must be 6-10 characters long, contain 1 number, 1 Uppercase and 1 lowercase letter, and must not contain spaces or special characters.
             </div>
           </div>
           <div class="register-center register-div">
             <label for="exampleInputPassword1" class="form-label register-subtitulo">DATE OF BIRTH</label>
-            <input type="password" class="form-control register-input" id="exampleInputPassword1">
+            <input type="date" id="dataNascimento" class="form-control register-input" placeholder="DD/MM/AAAA" required>
           </div>
           <div class="register-center register-div">
             <button type="submit" class="btn register-botao register-center">SUBMIT</button>
@@ -84,6 +88,7 @@
       </section>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="js/validaNascimento.js" type="module"></script>
     </main>
   </body>
   <footer class="background-forte p-2 divisao-footer">

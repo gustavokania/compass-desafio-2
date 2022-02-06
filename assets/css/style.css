@@ -62,6 +62,8 @@ body {
 
 .card-botao {
     background: linear-gradient(to bottom, rgb(199, 130, 245) 0%, rgb(112, 54, 150) 100%);
+    border: 1px outset rgb(34, 7, 53);
+    border-radius: 10px;
     color: white;
 }
 
